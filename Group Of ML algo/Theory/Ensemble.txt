@@ -1,0 +1,13 @@
+Ensemble Algorithm
+____________________________________________________________________
+-> Combines the multiple weaker model
+   -> Combine the weaker algorithm.
+   -> Decide the output per model by calculating weight.
+   -> Apply algorithm for each model and calculate weight.
+   -> Now to integrate the model and process according to model.
+
+Famous: Random Trees.
+        -> Used in the decision tree to make decision as per weight.
+____________________________________________________________________
+
+

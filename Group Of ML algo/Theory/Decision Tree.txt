@@ -1,0 +1,23 @@
+Decision Tree
+___________________________________________________
+-> Based on the decision of classification
+-> Left, Right
+
+Algorithm
+-> ID3
+-> C4.5 andd C5.0
+___________________________________________________
+
+
+
+Association Rule Learning
+___________________________________________________
+-> Rule Extractor
+-> Ecommerce buyer behavior
+-> Aprior Algorithm
+-> Eclat Algorithm
+
+  Transion     -----> Predict  
+
+ (Item1, Item2)-----> Item3
+___________________________________________________

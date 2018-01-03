@@ -1,0 +1,53 @@
+-> K means nearest algorithm predict the value by calculating the distance between
+   the test point and the training data
+
+-> But K means Nearest neighbour as a whole consists of the calculator and 
+   classifier.
+
+------> K means nearest Regressor  and K means nearest classifier <---------
+
+Complexity Of Knn
+-> N data(Training data)
+-> D dimension space
+-> Total complexity = N*D
+
+_______________________________________________________________
+---> Can we make it faster
+
+We can implement the KD tree (for time  complexity)
+
+-> K Dimension Tree
+-> Extended version of binary search tree.
+-> Extra space complexity added.
+-> Time complexity drastically reduces at run time.
+_______________________________________________________________
+
+
+
+KD tree construction
+_______________________________________________________________
+
+--------
+ Data 
+--------
+-----------------
+SN	(X,y)
+
+1	(2,3)
+2	(5,4)
+3	(4,7)
+4	(4,7)
+5	(8,1)
+6	(7,2)	
+-----------------
+
+-> Used for high dimensional data construction.
+
+_______________________________________________________________
+
+
+ 
+
+
+
+

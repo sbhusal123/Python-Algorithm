@@ -1,0 +1,52 @@
+1. Select the data ---> Subset of data (for prototype) -> More data is however better
+2. Preprocess the data 
+3. Transform Data
+
+1. Select The Data
+___________________________
+
+-> Subset of data
+
+-> More data is better
+
+-> Data source
+___________________________
+
+
+
+2. Preprocessing Data
+_________________________________________________________________________________
+-> Formatting(Source -> Required Format)
+
+-> Data cleaning (Missing) 
+
+-> Data samplnig
+  -> (Small subset of the data for prototyping, for small requirement)
+_________________________________________________________________________________
+
+
+3. Transform Data
+______________________________________________________
+-> Scaling
+   F1(cm) - F2(Meter)
+   F1(0,20) - F2(-5,10) => (0,1) (Normalization)
+
+-> Decomposition
+   Datetimie => Date + Time
+
+-> Aggregation
+   Width,Height => Area (In house price prediction) 
+______________________________________________________
+
+
+What category?
+
+Classification, Regression, Clustering
+
+1) Labels of data -> Clustering, supervised
+
+2) No labels -> Any Clustering, Unsupervised
+
+3) Data in high dimension -> Dimensional Reduction
+
+

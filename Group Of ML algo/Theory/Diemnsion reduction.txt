@@ -1,0 +1,5 @@
+Dimension Reduction
+__________________________________________________________
+-> To project the data in the lower dimension
+-> Not for learning but for data cramling.
+__________________________________________________________

@@ -1,0 +1,37 @@
+Learning Style Based:
+
+1) Supervised
+2) Unsupervised
+
+1) Supervised
+________________________________________________
+-> Linear Regression
+-> Logistic Neural Network
+-> Neural Network
+
+Algorithm
+-> Deep Learning
+  
+-> Training, Testing
+________________________________________________
+
+
+
+2) Unsupervised Learning
+________________________________________________
+-> K-means
+-> Aprior Algorithm
+-> Hierarcial Culstering
+   
+ Provide data and algorithm classifies by calculation.
+
+-> Set of data on the basis of classes.
+________________________________________________
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+Link: https://www.youtube.com/watch?v=cL5nA7SpRG0&list=PLA83b1JHN4lxUAZC7a3vSs2DU8lnDxez6&index=30
+
+K Means
+________________________________________________
+-> Simple Unsupervised Learning Algorithm
+-> Clustering Problem
+-> No training required
+-> Group Of Data into No Of Clusters
+-> K = No Of Clusters, Mean = Averaging Of Data
+________________________________________________
+
+Prolem Statement
+________________________________________________________
+-> Data belongs to particular cluster or not?
+-> Group Dataset into 2 clusters(for sample data set)
+-> But many clusters are also possible
+-> For high dimensions use Heruistic Search
+
+
+Steps:
+-> Select k =2 (arbitary ) as a centroid of cluster
+-> Assign each point to nearest centroid
+   -> Update Centroid (because we have updated the cluster)
+   -> Update till the cluster doesn't changes   
+
+________________________________________________________

@@ -1,0 +1,6 @@
+Neural Network
+________________________________________________
+-> Brain-inspired (Weight and node)
+   -> Node: Neuron
+   -> Weight: Synapsis
+________________________________________________

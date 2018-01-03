@@ -1,0 +1,8 @@
+1. Regression Algorithm
+_____________________________________________________________
+-> Type of Supervised way of learning
+-> Predicting ocntinous values + prob of occurance in class
+-> Linear Regression
+-> Logistic Regresssion
+-> Non Linear Regression
+_____________________________________________________________
