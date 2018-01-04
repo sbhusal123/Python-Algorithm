@@ -44,10 +44,3 @@ SN	(X,y)
 -> Used for high dimensional data construction.
 
 _______________________________________________________________
-
-
- 
-
-
-
-
