@@ -14,7 +14,7 @@ add_pixels = cv2.add(img2,img1)
 weighted = cv2.addWeighted(img1, 0.4 , img2, 0.6 , 0)
 #  image1 , img1-weight, img2 , img2-weight , gama
 
-# weight is actualy opposite opaqness
+# weight is actualy opaqueness
 
 
 cv2.imshow('Weighted',weighted)
