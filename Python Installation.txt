@@ -21,7 +21,7 @@ Perform manual installation under the location C:/Python/Python3.6.5
   ->  Now open command prompt and type "python get-pip.py" 
 
 
--> Add pip to the enviroment variable by searching for pip installation 
+-> Add pip to the enviroment variable by searching for "pip" in installation 
    directory. Copy the path and add to the PATH in enviroment variable.
 
 -> Perform following command for library installation
