@@ -46,10 +46,11 @@ def gradDesc(data,learningRate,theta,itr):
     gradTheta0 = 0
     gradTheta1 = 0
     for i in range(0,itr):
-
+        gradTheta0 = 0
+        gradTheta1 = 0
         for j in range(0,dataSize):
-            gradTheta0 = theta[0] + theta[1]*inp_feature[j] - target[j]
-            gradTheta1 = (theta[0] + theta[1] * inp_feature[j] - target[j])*inp_feature[j]
+            gradTheta0 = gradTheta0 + theta[0] + theta[1]*inp_feature[j] - target[j]
+            gradTheta1 = gradTheta1 + (theta[0] + theta[1] * inp_feature[j] - target[j])*inp_feature[j]
 
         theta[0] = theta[0] - learningRate*gradTheta0/(2*dataSize)
         theta[1] = theta[1] - learningRate * gradTheta1/(2*dataSize)
@@ -72,9 +73,9 @@ data = np.random.multivariate_normal([0, 2], cov, 300)
 
 
 
-learningRate = 0.01
+learningRate = 0.001
 theta = np.array([2,-0.5])
-itr = 10000
+itr = 1000
 
 [predictedTheta,cost_points,threeD_plotpoints] =  gradDesc(data,learningRate,theta,itr)
 x,y = data.T #consists of the points for plotting the equation of line in plots

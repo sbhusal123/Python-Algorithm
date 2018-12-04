@@ -32,26 +32,19 @@ data = np.matrix([[1,2],
 
 x,y = data.T
 
-
-
-
-
 theta =  np.asarray(regression(data))
 
-
 print(theta)
-
 
 data = np.asarray(data)
 
 
-
 x,y = data.T
-
 
 plt.xlabel('X')
 
 plt.ylabel('Y')
+
 
 plt.scatter(x,y) #scattering actual point
 plt.plot(x,theta[0][0]+theta[1][0]*x,'-r') #plotting the actual line
