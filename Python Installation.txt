@@ -26,10 +26,15 @@ Perform manual installation under the location C:/Python/Python3.6.5
 
 -> Perform following command for library installation
    pip install numpy
-   pip install scipy.
+   pip install scipy
    pip install matplotlib
    pip install scikit-learn
    pip install opencv-python
+   pip install cmake //cmake is a standard c++ support for python
+   pip install dlib //requires cmake installation before
 
+
+
+-> Concern https://stackoverflow.com/questions/41912372/dlib-installation-on-windows-10 for installation error on windows 10 machines
 
 
