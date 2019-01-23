@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaca7f3d-dcfb-4720-b9b7-dce770bb3d00" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python-Learning-And-Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python-Learning-And-Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python Installation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python Installation.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,23 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="face.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Facial/face.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/k-means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#32#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Python Installation.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python Installation.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="37" column="133" selection-start-line="37" selection-start-column="133" selection-end-line="37" selection-end-column="133" />
+            <state relative-caret-position="180">
+              <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -73,13 +61,16 @@
         <option value="$PROJECT_DIR$/Facial/video_facial_landmarks.py" />
         <option value="$PROJECT_DIR$/Facial/face.py" />
         <option value="$PROJECT_DIR$/Python Installation.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/test.py" />
+        <option value="$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/k-means.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="684" />
+    <option name="width" value="682" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -98,6 +89,17 @@
               <item name="Python-Learning-And-Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Learning-And-Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="Facial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Learning-And-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Learning-And-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Mathematical And Numerical Computation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Learning-And-Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Learning-And-Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Mathematical And Numerical Computation" type="462c0819:PsiDirectoryNode" />
+              <item name="K-means Clustering" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.face">
+  <component name="RunManager" selected="Python.k-means">
     <configuration name="cnn_face_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Learning-And-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +153,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="face" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Learning-And-Algorithm" />
@@ -169,8 +174,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="face_landmark_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="k-means" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Learning-And-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,17 +186,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dlib-master/python_examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dlib-master/python_examples/face_landmark_detection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/k-means.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="opencv_webcam_face_detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Learning-And-Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,15 +207,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dlib-master/python_examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dlib-master/python_examples/opencv_webcam_face_detection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="video_facial_landmarks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python-Learning-And-Algorithm" />
@@ -223,21 +237,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.face_landmark_detection" />
-      <item itemvalue="Python.opencv_webcam_face_detection" />
       <item itemvalue="Python.cnn_face_detector" />
       <item itemvalue="Python.video_facial_landmarks" />
       <item itemvalue="Python.face" />
+      <item itemvalue="Python.k-means" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.k-means" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.face" />
         <item itemvalue="Python.video_facial_landmarks" />
         <item itemvalue="Python.cnn_face_detector" />
-        <item itemvalue="Python.face_landmark_detection" />
-        <item itemvalue="Python.opencv_webcam_face_detection" />
       </list>
     </recent_temporary>
   </component>
@@ -258,26 +275,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49748743" weight="0.5128983" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" weight="0.33663365" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32343236" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.6105611" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3778878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49748743" visible="true" weight="0.24459359" />
       <window_info id="Structure" order="1" sideWeight="0.5025126" side_tool="true" weight="0.33383915" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" weight="0.32838285" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32343236" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4601329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925596" weight="0.32724252" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.6105611" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074404" side_tool="true" weight="0.33663365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,141 +322,24 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/two_variable_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/polynomial_regression_3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/two_variable_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/polynomial_regression_3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/two_variable_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/polynomial_regression_3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/two_variable_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/polynomial_regression_3d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/ploynomial_3d_regression.py" />
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/two_variable_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation_multVariableGradDesc.py" />
-    <entry file="file://C:/Python/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="552" selection-start-line="552" selection-end-line="552" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/two_variable_linear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="54" column="66" lean-forward="true" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/ploynomial_3d_regression.py" />
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Gradient Descent/matrixImplementation_multVariableGradDesc.py" />
-    <entry file="file://C:/Python/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="552" selection-start-line="552" selection-end-line="552" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/numpy/core/numeric.py" />
     <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/read and show img.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -486,16 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/dimensionality_reduction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/dimensionality_reduction.py" />
     <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/Logistic_Regression/logistic_using_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -503,116 +394,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Face_Detection_Dlib/renderFace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Face_Detection_Dlib/facialLandmarkDetector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="84" column="2" selection-start-line="84" selection-start-column="2" selection-end-line="84" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Face_Detection_Dlib/output.avi">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Facial/renderFace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Facial/facialLandmarkDetector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding>
-            <element signature="e#1#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/dlib/all/source.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/find_candidate_object_locations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/tools/python/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/tools/imglab/copy_imglab_dataset">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/opencv_webcam_face_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/cnn_face_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/svm_struct.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="168" column="17" lean-forward="true" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Face_Detection_Dlib/renderFace.py" />
+    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Face_Detection_Dlib/facialLandmarkDetector.py" />
+    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Face_Detection_Dlib/output.avi" />
+    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Facial/renderFace.py" />
+    <entry file="file://$PROJECT_DIR$/Image processing with OpenCV/Image Arithmetics/Facial/facialLandmarkDetector.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/dlib/all/source.cpp" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_recognition.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/find_candidate_object_locations.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/tools/python/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/tools/imglab/copy_imglab_dataset" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/opencv_webcam_face_detection.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_detector.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/cnn_face_detector.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/svm_struct.py" />
     <entry file="file://$PROJECT_DIR$/Facial/dataset.dat">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="68">
@@ -620,34 +416,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_jitter.py">
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_jitter.py" />
+    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_landmark_detection.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dlib-master/python_examples/face_landmark_detection.py">
+    <entry file="file://$PROJECT_DIR$/Python Installation.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        <state relative-caret-position="321">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Facial/face.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#32#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python Installation.txt">
+    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mathematical And Numerical Computation/K-means Clustering/k-means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="37" column="133" selection-start-line="37" selection-start-column="133" selection-end-line="37" selection-end-column="133" />
+        <state relative-caret-position="180">
+          <caret line="66" column="45" lean-forward="true" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
         </state>
       </provider>
     </entry>
