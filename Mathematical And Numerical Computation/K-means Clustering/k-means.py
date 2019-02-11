@@ -65,7 +65,6 @@ def KMeansClustering(data,n_clusters,verbose):
 x = np.array([[2,1,3,5,4,7,6,8,9,0,10]])
 
 clusters = KMeansClustering(x,5,verbose=True)
-print(clusters)
 
 
 
