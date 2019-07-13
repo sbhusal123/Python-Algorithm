@@ -4,5 +4,5 @@ _____________________________________________________________
 -> Predicting ocntinous values + prob of occurance in class
 -> Linear Regression
 -> Logistic Regresssion
--> Non Linear Regression
+-> Non Linear Regression(SVM, or Kernel SVM)
 _____________________________________________________________
